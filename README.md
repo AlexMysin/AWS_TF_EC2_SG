@@ -9,6 +9,7 @@ HOW TO USE:
 5. Create AWS EC2 key
 6. Paste keys in resource.tf
 7. terraform init
-8. Terraform apply
+8. terrafrom plan
+9. Terraform apply
 
 Delete - terraform Destroy
