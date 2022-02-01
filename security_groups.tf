@@ -4,7 +4,7 @@ resource "aws_security_group" "MyTfEC2group" {
   vpc_id      = aws_default_vpc.default.id
 
   ingress {
-    description      = "Inbound rule TLS"
+    description      = "Inbound rule SSL/TLS"
     from_port        = 443
     to_port          = 443
     protocol         = "tcp"
